@@ -1,0 +1,1427 @@
+.mainWrapper,
+header {
+    width: 100%
+}
+
+.banner,
+.innerBanner,
+.logo {
+    position: relative
+}
+
+.homeCareer .orangeC,
+.login button,
+.orangeBtn {
+    text-transform: uppercase
+}
+
+.bannerInfo li,
+.homeCareer li,
+.leftMenu li,
+footer li {
+    list-style-type: none
+}
+
+.carousel-inner .media .title a:hover,
+.leftMenu a:focus,
+.orangeBtn,
+a,
+a:hover {
+    text-decoration: none
+}
+
+@font-face {
+    font-family: poppinsbold;
+    src: url(../fonts/poppins-bold-webfont.html) format('woff2'), url(../fonts/poppins-bold-webfont.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: poppinslight;
+    src: url(../fonts/poppins-light-webfont.html) format('woff2'), url(../fonts/poppins-light-webfont.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: poppinsmedium;
+    src: url(../fonts/poppins-medium-webfont.html) format('woff2'), url(../fonts/poppins-medium-webfont.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: poppinsregular;
+    src: url(../fonts/poppins-regular-webfont.html) format('woff2'), url(../fonts/poppins-regular-webfont.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: poppinssemibold;
+    src: url(../fonts/poppins-semibold-webfont.html) format('woff2'), url(../fonts/poppins-semibold-webfont.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: poppinsextralight;
+    src: url(../fonts/poppins-extralight-webfont.eot);
+    src: url(../fonts/poppins-extralight-webfontd41d.eot?#iefix) format('embedded-opentype'), url(../fonts/poppins-extralight-webfont.html) format('woff2'), url(../fonts/poppins-extralight-webfont.woff) format('woff'), url(../fonts/poppins-extralight-webfont.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+body {
+    font-family: poppinsregular;
+    font-size: 16px;
+    color: #2d2d2d
+}
+
+a:hover {
+    color: #333;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s
+}
+
+.orangeC {
+    color: #0089B3
+}
+
+.btn-primary {
+    background-color: #0089B3;
+    color: #fff;
+    padding: 10px;
+    font-family: poppinsmedium
+}
+
+.btn-primary:hover {
+    background: #595959
+}
+
+p {
+    line-height: 26px;
+    font-family: poppinsregular
+}
+
+h2 {
+    font-size: 21px
+}
+
+h3,
+h4 {
+    font-family: poppinsmedium;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.bannerInfo p,
+.login button,
+.navbar-default .navbar-nav li {
+    font-size: 14px
+}
+
+.cd-title h1,
+.leftMenu a,
+.otherTeam p,
+.sentence,
+.whiteBtn {
+    font-weight: 700;
+	font-size: 4vw;	
+}
+
+header {
+    top: 0;
+    left: 0;
+    z-index: 999;
+    border-bottom: 1px solid #3a3a42
+}
+
+.logo {
+    margin-top: 8px;
+    z-index: 10000000000000
+}
+
+#navbar,
+.navbar-nav li:last-child a {
+    padding-right: 0
+}
+
+.navbar {
+    margin-bottom: 0
+}
+
+.navbar-default {
+    background: 0 0;
+    border: none;
+    float: right
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #0089B3;
+    background: 0 0
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff
+}
+
+.dropdown-menu > li.active a,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    font-size: 14px;
+    background-color: #000 !important;
+    color: #0089B3 !important
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background: #000
+}
+
+.dropdown-menu > li > a {
+    color: #fff;
+    line-height: 28px
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+    background: 0 0;
+    color: #000
+}
+
+.login {
+    border: 1px solid #0089B3;
+    border-radius: 15px;
+    color: #0089B3;
+    padding: 2px 7px;
+    margin-top: 11px
+}
+
+.login button {
+    background: 0 0;
+    border: none
+}
+
+.caret {
+    margin-top: -7px
+}
+
+.banner {
+    background: url(../imgs/banner.jpg) right no-repeat;
+    height: 690px;
+    background-size: cover
+}
+
+.innerBanner {
+    background: url(../imgs/banner.jpg) top no-repeat;
+    height: 370px;
+    background-size: cover
+}
+
+.bannerInfo {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: 0 auto
+}
+
+.cd-title,
+.cd-words-wrapper {
+    position: relative;
+    text-align: center
+}
+
+.bannerInfo p {
+    color: #27f7a6
+}
+
+.bannerInfo h2 {
+    margin-top: 0;
+    font-size: 21px;
+    color: #27f7a6
+}
+
+.bannerInfo h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 0;
+    font-family: poppinsextralight;
+    line-height: 45px
+}
+
+.bannerInfo li {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 16px
+}
+
+.cd-title {
+    height: 160px;
+    line-height: 230px
+}
+
+.cd-title h1 {
+    font-size: 2.4rem
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    .homeMedia a .title img,
+    ::i-block-chrome {
+        top: 0 !important;
+        -webkit-filter: grayscale(100%) !important
+    }
+
+    .banner,
+    ::i-block-chrome {
+        background: url(../imgs/banner.jpg) center no-repeat
+    }
+}
+
+@media all and (-ms-high-contrast:none),
+(-ms-high-contrast:active) {
+    .homeMedia a .title img {
+        top: 0 !important;
+        -webkit-filter: grayscale(100%) !important
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .cd-title {
+        line-height: 250px
+    }
+
+    .cd-headline {
+        line-height: 35px
+    }
+}
+
+@media only screen and (min-width:1170px) {
+    .cd-title {
+        height: 200px;
+        line-height: 300px
+    }
+
+    .cd-title h1 {
+        font-size: 1rem
+    }
+}
+
+.cd-headline,
+.sentence {
+    font-family: poppinsextralight;
+    line-height: 14vh;    
+}
+
+.cd-intro {
+    width: 90%;
+    max-width: 768px;
+    text-align: center;
+    margin: 4em auto
+}
+
+@media only screen and (min-width:768px) {
+    .cd-intro {
+        margin: 5em auto
+    }
+    
+    .whiteBg {
+        height: auto
+    }
+}
+
+@media only screen and (min-width:1170px) {
+    .cd-intro {
+        margin: 6em auto
+    }
+    
+    .whiteBg {
+        height: auto
+    }
+
+    .cd-headline {
+        color: #27f7a6;
+        font-size: 24px;
+        margin-top: 0;
+        font-family: poppinsextralight;
+        line-height: 45px
+    }
+}
+
+.cd-headline {
+    color: #27f7a6;
+    font-size: 24px;
+    margin-top: 0
+}
+
+.cd-words-wrapper {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff
+}
+
+.cd-words-wrapper b {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    left: 0;
+    top: 0
+}
+
+.cd-words-wrapper b.is-visible,
+
+.no-js .cd-words-wrapper b {
+    opacity: 0
+}
+
+.no-js .cd-words-wrapper b.is-visible {
+    opacity: 1
+}
+
+.cd-headline.push b {
+    opacity: 0
+}
+
+.cd-headline.push b.is-visible {
+    opacity: 1;
+    -webkit-animation: push-in .6s;
+    -moz-animation: push-in .6s;
+    animation: push-in .6s
+}
+
+.cd-headline.push b.is-hidden {
+    -webkit-animation: push-out .6s;
+    -moz-animation: push-out .6s;
+    animation: push-out .6s
+}
+
+
+.homeReach {
+    background: #0089B3;
+    color: #fff;
+    text-align: center;
+    height: 180px
+}
+
+.homeReach h2 {
+    margin-top: 0;
+    padding-top: 45px;
+    font-size: 20px
+}
+
+.orangeBtn {
+    padding: 10px 30px;
+    background: #0089B3;
+    color: #fff !important;
+    font-size: 14px
+}
+
+.homeReach p {
+    margin-bottom: 30px;
+    font-size: 14px
+}
+
+.productsWrap {
+    background: #fff;
+    padding-bottom: 40px   
+}
+
+.pageTitle {
+    text-align: center
+}
+
+.whiteBg {
+    background: #efefef;
+    padding: 1em;
+    height: 16em;
+    text-align: center  
+}
+
+.whiteBg h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.whiteBg p {
+    text-align: justify;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.teamWrapper {
+    padding-bottom: 40px;
+    background: #2d2d2d;
+    color: #fff
+}
+
+.teamWrapper .media .media-heading span {
+    font-size: 14px;
+    color: #0089B3
+}
+
+.teamWrapper .media .media-heading {
+    margin-bottom: 15px
+}
+
+.teamWrapper .media {
+    border-bottom: solid 1px #484848;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 0
+}
+
+.teamWrapper .media:last-child {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+.careerWho {
+    padding-top: 50px
+}
+
+.homeCareer {
+    text-align: center;
+    background: #fff;
+    padding-bottom: 40px
+}
+
+.homeCareer h2,
+.homeContact h2,
+.homeMedia h2,
+.investorWrapper h2,
+.productsWrap h2,
+.teamWrapper h2,
+.aboutUs h2 {
+    border-bottom: solid 1px #b4b4b4;
+    padding-bottom: 15px;
+    margin-top: 40px;
+    font-size: 21px;
+    display: inline-block;
+    font-family: poppinsmedium;
+    text-align: center
+}
+
+.homeCareer h2 {
+    margin-bottom: 34px
+}
+
+.homeContact h2,
+.homeMedia h2,
+.investorWrapper h2,
+.productsWrap h2,
+.teamWrapper h2,
+.aboutUs h2 {
+    margin-bottom: 40px
+}
+
+.homeCareer h3 {
+    margin-top: 0
+}
+
+.homeCareer p {
+    margin-bottom: 10px;
+    font-size: 16px
+}
+
+.aboutUs {
+	text-align: center;
+	background: #2d2d2d;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.aboutUs h2 {
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom:20px;
+	padding-bottom: 15px;
+	font-size: 30px;
+	
+}
+
+.aboutUs h3 {
+	color: #ffffff;
+	margin-bottom:10px;
+	margin-top: 30px;
+	font-size: 25px;
+}
+
+.aboutUs p {
+	color: #efefef;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 16px;
+	text-align: justify;
+	text-align-last: center;
+}
+
+.homeCareer li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px
+}
+
+.homeCareer li span {
+    margin-right: 10px;
+    color: #2d2d2d
+}
+
+.homeCareer ul {
+    margin-bottom: 50px
+}
+
+.homeCareer .orangeC {
+    font-size: 16px
+}
+
+.grayBtn {
+    padding: 10px 15px;
+    background: #000;
+    color: #fff;
+    transition: .5s;
+    margin-top: 10px;
+    display: inline-block
+}
+
+.grayBtn:hover {
+    background: #0089B3;
+    color: #fff
+}
+
+.homeMedia {
+    background: #fff;
+    color: #2d2d2d;
+    padding-bottom: 0
+}
+
+.homeMedia a {
+    color: #2d2d2d;
+    margin-bottom: 40px;
+    display: inline-block
+}
+
+.homeMedia .title {
+    font-size: 18px;
+    font-family: poppinsmedium;
+    display: block;
+    text-align: center;
+    height: 65px
+}
+
+.socialIcons li,
+footer li {
+    display: inline-block
+}
+
+.homeMedia a .title img {
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
+}
+
+.homeMedia a:hover {
+    color: #0089B3
+}
+
+.homeMedia a .title img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0)
+}
+
+.investorWrapper {
+    background: #0089B3;
+    color: #fff;
+    padding-bottom: 40px
+}
+
+.investorWrapper h2 {
+    border-bottom: 1px solid #fff
+}
+
+.investorWrapper .media {
+    border-bottom: solid 1px #f4883a;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 0
+}
+
+.media .content {
+    padding-left: 20px;
+}
+
+.investorWrapper .media img {
+    float: right;
+}
+
+.investorWrapper a {
+    color: #2d2d2d
+}
+
+.investorWrapper .media:nth-child(4) {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+footer h2,
+footer h4 {
+    margin-bottom: 15px;
+    font-family: poppinsmedium;
+    text-transform: uppercase
+}
+
+.homeContact {
+    padding-bottom: 40px;
+    text-align: center;
+    background: #2d2d2d;
+    color: #fff
+}
+
+.homeContact input {
+    color: #fff;
+    border: none;
+    border-bottom: solid 1px #fff;
+    width: 100%;
+    background: #0089B3;
+    padding-bottom: 5px;
+    font-size: 16px
+}
+
+.homeContact i {
+    margin-right: 6px
+}
+
+.homeContact span,
+.socialIcons li {
+    margin-right: 10px
+}
+
+.homeContact input:focus {
+    border: none;
+    border-bottom: solid 1px #fff
+}
+
+.homeContact a {
+    color: #fff
+}
+
+.homeContact a:hover,
+.whiteBtn,
+footer li a:hover {
+    color: #0089B3
+}
+
+.whiteBtn {
+    background-color: #fff;
+    padding: 10px 30px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px
+}
+
+.contactBtn {
+    text-align: center;
+    margin-top: 30px
+}
+
+footer {
+    background-color: #2d2d2d;
+    color: #fff
+}
+
+footer h2 {
+    font-size: 20px;
+    margin-top: 40px
+}
+
+footer h4 {
+    font-size: 14px;
+    margin-top: 20px
+}
+
+footer ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 15px
+}
+
+footer li {
+    font-size: 12px
+}
+
+footer li a {
+    color: #454545
+}
+
+.socialIcons a {
+    font-size: 22px
+}
+
+.copyright,
+.footer-links a,
+footer p {
+    color: #bbb;
+    font-size: 12px
+}
+
+.copyright {
+    border-top: 1px solid #575757;
+    padding: 10px 0;
+    margin-top: 10px
+}
+
+footer p {
+    line-height: 26px;
+    text-align: right;
+    margin-top: 10px
+}
+
+.footer-links a {
+    float: left;
+    padding-right: 20px
+}
+
+.social-icons {
+    float: right;
+    margin: 0
+}
+
+.social-icons li {
+    float: left;
+    margin: 0;
+    padding-top: 10px
+}
+
+.social-icons a {
+    color: #c4c4c4;
+    padding-right: 14px;
+    font-size: 20px
+}
+
+.leftMenu li {
+    margin-bottom: 15px
+}
+
+.leftMenu ul {
+    padding-left: 0
+}
+
+.leftMenu a {
+    font-size: 12px;
+    color: #454545;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+.leftMenu a:hover,
+.leftMenu li.active a {
+    color: #0089B3
+}
+
+.leftMenu a:focus {
+    outline: 0
+}
+
+.contentWrapper {
+    margin-top: 30px
+}
+
+.rightContent h2 {
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 21px
+}
+
+.aboutContent p,
+.rightContent p {
+    font-size: 16px;
+    line-height: 26px
+}
+
+.rightContent {
+    border-left: solid 1px #ccc;
+    padding-left: 30px;
+    margin-bottom: 40px
+}
+
+.aboutContent p {
+    clear: both;
+    border-bottom: solid 1px #f3f3f3;
+    margin-bottom: 30px;
+    padding-bottom: 30px
+}
+
+.aboutContent p:nth-child(last) {
+    border-bottom: 0
+}
+
+.aboutContent .valueIcon {
+    display: inline-block;
+    margin-top: -7px;
+    margin-right: 15px;
+    float: left
+}
+
+.aboutContent .custIcon {
+    width: 42px;
+    height: 41px;
+    background: url(../imgs/icons-values.png) no-repeat
+}
+
+.aboutContent .custIcon1 {
+    width: 52px;
+    height: 42px;
+    background: url(../imgs/icons-values.png) 0 -41px no-repeat
+}
+
+.aboutContent .custIcon2 {
+    width: 52px;
+    height: 62px;
+    background: url(../imgs/icons-values.png) 0 -84px no-repeat
+}
+
+.aboutContent .custIcon3 {
+    width: 52px;
+    height: 45px;
+    background: url(../imgs/icons-values.png) 0 -147px no-repeat
+}
+
+.aboutContent .custIcon4 {
+    width: 52px;
+    height: 47px;
+    background: url(../imgs/icons-values.png) 0 -193px no-repeat
+}
+
+.careersWrapper h3,
+.careersWrapper h4 {
+    font-size: 18px
+}
+
+.careersWrapper li {
+    margin-bottom: 10px
+}
+
+.careersWrapper ul {
+    padding-left: 20px
+}
+
+.careersWrapper .panel-title a,
+.panel-title a:focus {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block
+}
+
+.careersWrapper .panel-group .panel + .panel {
+    margin-top: 0
+}
+
+.careersWrapper {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0
+}
+
+.careersWrapper .panel-heading {
+    padding: 0
+}
+
+.panel-title span {
+    float: right
+}
+
+.careersWrapper .panel-default > .panel-heading {
+    background: 0 0
+}
+
+.careersWrapper .panel {
+    border: none;
+    box-shadow: none;
+    border-top: solid 1px #ccc;
+    border-radius: 0
+}
+
+.careerValues h2,
+.careersWrapper h2 {
+    border-bottom: solid 1px #ccc;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 21px;
+    font-family: poppinsmedium
+}
+
+.careerBtn {
+    margin: 40px 0
+}
+
+.careersWrapper h2 {
+    margin-bottom: 25px;
+    margin-top: 40px
+}
+
+.careerTitle,
+.careersWrapper p {
+    text-align: center
+}
+
+.careersWrapper p {
+    margin-bottom: 30px;
+    margin-top: 10px
+}
+
+.careerValues h2 {
+    margin-bottom: 25px;
+    margin-top: 40px
+}
+
+.careerValues .gray-tile,
+.careerValues .orange-tile {
+    color: #fff;
+    vertical-align: middle;
+    font-size: 18px;
+    text-align: center
+}
+
+.carousel-inner .media .title,
+.carousel-inner .media .title a,
+.connect-icons .text,
+.investors .media .title a {
+    font-family: poppinsregular
+}
+
+.careerValues .gray-tile {
+    background: #2d2d2d;
+    padding: 84px 20px
+}
+
+.careerValues .lightgray-tile {
+    padding: 58px 30px;
+    background: #f5f5f5;
+    height: 194px
+}
+
+.careerValues .orange-tile {
+    background: #0089B3;
+    padding: 84px 20px
+}
+
+.careerValues .lightgray-tile2 {
+    padding: 56px 30px;
+    background: #fbfbfb;
+    height: 194px
+}
+
+.careerValues .lightgray-tile3 {
+    padding: 48px 30px;
+    background: #f5f5f5;
+    height: 194px
+}
+
+.careerValues .lightgray-tile4 {
+    padding: 58px 30px;
+    background: #fbfbfb;
+    height: 194px
+}
+
+.contactWrapper iframe {
+    margin-bottom: 40px
+}
+
+.contactWrapper p {
+    font-size: 16px
+}
+
+.connect-icons ul {
+    margin: 0;
+    padding: 0
+}
+
+.connect-icons {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+    margin-top: 15px
+}
+
+.connect-icons li {
+    float: left;
+    list-style: none
+}
+
+.connect-icons li a {
+    color: #c4c4c4;
+    padding-right: 14px;
+    font-size: 20px
+}
+
+.connect-icons .text {
+    font-size: 16px;
+    color: #454545
+}
+
+.ourteam .media {
+    border-bottom: solid 1px #f3f3f3;
+    padding-bottom: 30px;
+    margin-bottom: 30px
+}
+
+.ourteam .media-heading {
+    margin-bottom: 15px
+}
+
+.ourteam .media:nth-child(4) {
+    border: 0
+}
+
+.rightContent .media h4 span {
+    font-size: 14px;
+    color: #0089B3
+}
+
+.carousel-inner p,
+.otherTeam p {
+    font-size: 16px
+}
+
+.otherTeam img {
+    display: inline;
+    margin-bottom: 10px
+}
+
+.otherTeam {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.otherTeam p {
+    margin-bottom: 5px
+}
+
+.carousel-indicators {
+    top: 0;
+    bottom: inherit
+}
+
+.carousel-indicators li {
+    background-color: #ddd
+}
+
+.carousel-indicators .active {
+    background-color: #0089B3
+}
+
+.carousel-inner p span {
+    margin-left: 20px
+}
+
+.carousel-inner .media {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #f3f3f3
+}
+
+.carousel-inner .media:nth-child(6) {
+    border-bottom: 0
+}
+
+.carousel-inner .media .title {
+    margin-bottom: 0
+}
+
+.carousel-inner .media .title a {
+    color: #595959;
+    font-size: 20px;
+    line-height: 26px
+}
+
+.carousel-inner .media .title a:hover {
+    color: #0089B3
+}
+
+.carousel-inner .media .author {
+    font-size: 12px
+}
+
+.investors .media {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #f3f3f3
+}
+
+.investors .media .title a {
+    color: #595959;
+    font-size: 20px;
+    line-height: 26px
+}
+
+.investors .media .title a:hover {
+    color: #0089B3
+}
+
+.investors .media:nth-child(2) {
+    border-bottom: 0
+}
+
+.investors p b {
+    font-size: 20px;
+    line-height: 30px
+}
+
+.naspersLogo {
+    width: 75%;
+}
+
+@media only screen and (min-width:768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block
+    }
+}
+
+@media (max-width:900px) {
+    .naspersLogo {
+        width: 75% !important;
+    }
+
+    .homeCareer li,
+    .whiteBg p {
+        text-align: left
+    }
+
+    .rightContent {
+        border-left: 0;
+        padding-levft: 0
+    }
+
+    .homeCareer li {
+        width: 90%;
+        line-height: 34px
+    }
+
+    .homeReach {
+        height: 250px
+    }
+
+    .whiteBg {
+        height: auto   
+    }
+
+    .teamWrapper .media .media-heading {
+        margin-top: 20px;
+        text-align: center
+    }
+
+    .teamWrapper .media img {
+        margin: 0 auto 10px
+    }
+
+    .cd-headline {
+        line-height: 35px
+    }
+
+    .mobile-connect,
+    .mobile-contact {
+        display: block
+    }
+
+    .investorWrapper a img {
+        padding-bottom: 20px;
+        margin: 0 auto;
+        float: none !important;
+        /* width: 75%; */
+    }
+
+    .careerValues .lightgray-tile,
+    .careerValues .lightgray-tile2 {
+        height: auto;
+        padding: 30px 20px
+    }
+
+    .careerValues .lightgray-tile3 {
+        padding: 40px 20px
+    }
+
+    .banner {
+        background: url(../imgs/banner.jpg) auto no-repeat
+    }
+
+    .naspersLogo {
+        width: 40%;
+    }
+	.aboutUs p {
+	color: #efefef;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 15px;
+	font-weight: 400;	
+	}
+}
+
+@media (max-width:567px) {
+    .homeCareer li span {
+        float: left
+    }
+
+    .naspersLogo {
+        width: 25% !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .naspersLogo {
+        width: 22% !important;
+    }
+
+    #navbar {
+        margin-top: 15px;
+        width: 177px
+    }
+
+    .dropdown-menu {
+        background-color: #fff !important
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff
+    }
+
+    .navbar-default .navbar-toggle,
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #0089B3;
+        border: none
+    }
+
+    .navbar-toggle {
+        margin-top: 9px;
+        margin-right: 0
+    }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-top: 0
+    }
+
+    .banner {
+        height: 300px;
+        background-position: center
+    }
+
+    .homeContact input {
+        margin-bottom: 20px
+    }
+
+    .contactBtn {
+        margin-top: 20px
+    }
+
+    .bannerInfo {
+        bottom: 30%
+    }
+
+    .bannerInfo h3 {
+        font-size: 20px;
+        line-height: 28px
+    }
+
+    .bannerInfo li {
+        font-size: 14px;
+        padding-bottom: 10px
+    }
+
+    .sentence {
+        line-height: 8vh;
+        font-size: 10vw;
+    }
+
+    .careerValues .gray-tile,
+    .careerValues .orange-tile {
+        padding: 40px 20px
+    }
+
+    .careerValues .lightgray-tile3 {
+        height: auto
+    }
+
+    .rightContent .media img {
+        margin-bottom: 30px;
+        display: inherit
+    }
+
+    .footer-links {
+        padding-top: 10px
+    }
+
+    .footer-links a,
+    .social-icons,
+    .social-icons li {
+        float: none
+    }
+
+    .social-icons a {
+        float: left
+    }
+
+    .social-icons li {
+        padding-top: 0
+    }
+
+    .copyright {
+        margin-top: 34px
+    }
+}
+
+.privacyPolicy {
+    padding: 20px 0px;
+}
+
+.privacyPolicy p {
+    font-size: 14px;
+    margin: 20px 0px;
+}
+
+.privacyPolicy h1 {
+    font-size: 18px;
+    font-family: poppinsmedium;
+    font-weight: normal;
+}
+
+.privacyPolicy h2 {
+    font-size: 16px;
+    font-family: poppinsmedium;
+    font-weight: normal;
+}
+
+.privacyPolicy ul {}
+
+.privacyPolicy ul li {}
+
+.privacyPolicy ul li p {
+    margin: 10px 0px;
+}
+
+.address p {
+    margin: 0;
+}
+
+.col-md-4 {
+    padding: 1em;
+}
