@@ -1,89 +1,58 @@
-<!--Footer Start-->
-<footer>
-  <div class="container-fluid">
-    <div class="col-sm-6">
-      <ul class="footer-links">
-        <li><a href="index.html#home" class="js-scroll-trigger" title="Decidum Network | Home">Home</a></li>
-        <li><a href="index.html#founder" class="js-scroll-trigger" title="Decidum Network | About Us">Services</a></li>
-        <li><a href="careers.html" title="Decidum Network | Careers">Careers</a></li><li><a href=index.html#aboutUs class="link " title="Decidum Careers">About Us</a></li><li><a href="index.html#contact"  class="js-scroll-trigger" title="Decidum Network | Contact">Contact</a></li> 
-      </ul>
-    </div>
-    <div class="col-sm-6">
-        <p>&copy; 2020 Decidum. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
-<!--Footer End-->
-<!-- Include all compiled plugins (below), or include individual files as needed -->
+<footer> <div class="container-fluid"> <div class="col-sm-6"> <ul class="footer-links"> <li><a href="index.html#home" class="js-scroll-trigger" title="Decidum Network | Home">Home</a></li><li><a href="index.html#founder" class="js-scroll-trigger" title="Decidum Network | About Us">Services</a></li><li><a href="careers.html" title="Decidum Network | Careers">Careers</a></li><li><a href=index.html#aboutUs class="js-scroll-trigger" title="Decidum Careers">About Us</a></li><li><a href="index.html#contact" class="js-scroll-trigger" title="Decidum Network | Contact">Contact</a></li></ul> </div><div class="col-sm-6"> <p>&copy; 2020 Decidum. All rights reserved.</p></div></div></footer>
 <script src="js/bootstrap.min.js"></script>
-  <script>
-        $(document).ready(function(){
-            // Add minus icon for collapse element which is open by default
-            $(".collapse.in").each(function(){
-            	$(this).siblings(".panel-heading").find(".fa").addClass("fa-minus-circle").removeClass("fa-plus-circle");
-            });
-
-            // Toggle plus minus icon on show hide of collapse element
-            $(".collapse").on('show.bs.collapse', function(){
-            	$(this).parent().find(".fa").removeClass("fa-plus-circle").addClass("fa-minus-circle");
-            }).on('hide.bs.collapse', function(){
-            	$(this).parent().find(".fa").removeClass("fa-minus-circle").addClass("fa-plus-circle");
-            });
-        });
-    </script>
-    <script type="text/javascript">
-     $(document).ready(function () {
-            $('.dropdown-toggle').click(function(e) {
-    	  	if ($(document).width() > 768) {
-    	    e.preventDefault();
-                
-
-    	    var url = $(this).attr('href');
+<script>
+  $(document).ready(function () {
+    $(".collapse.in").each(function () {
+      $(this).siblings(".panel-heading").find(".fa").addClass("fa-minus-circle").removeClass("fa-plus-circle");
+    });
+    $(".collapse").on('show.bs.collapse', function () {
+      $(this).parent().find(".fa").removeClass("fa-plus-circle").addClass("fa-minus-circle");
+    }).on('hide.bs.collapse', function () {
+      $(this).parent().find(".fa").removeClass("fa-minus-circle").addClass("fa-plus-circle");
+    });
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('.dropdown-toggle').click(function (e) {
+      if ($(document).width() > 768) {
+        e.preventDefault();
 
 
-    	    if (url !== '#') {
+        var url = $(this).attr('href');
 
-    	      window.location.href = url;
-    	    }
 
-    	  }
-    	});
-     });
-    </script>
-	 <script src="js/flippy.js"></script>
-	 <script>
-            $(document).ready(function () {
+        if (url !== '#') {
 
-                $('.flippy').flippy({
-                    interval: 3,
-                    speed: 1000,
-                    stop: false,
-                    distance: "100px"
-                });
+          window.location.href = url;
+        }
 
-            });
-        </script>
-		<script src="js/jquery.easing.min.js"></script>
-	<script src="js/scrolling-nav.js"></script>
+      }
+    });
+  });
+</script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
 
 <script>
- (function(i,s,o,g,r,a,m){
-   i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
- m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
 
- ga('create', 'UA-96819518-1', 'auto');
- ga('send', 'pageview');
+  ga('create', 'UA-96819518-1', 'auto');
+  ga('send', 'pageview');
 
 </script>
 
 <script type="text/javascript">
-/*  $(document).ready(function () {
-    var url = window.location;
-    $('ul.nav a[href="'+ url +'"]').parent().addClass('active');
-    $('ul.nav a').filter(function() {
-         return this.href == url;
-    }).parent().addClass('active');
-});*/
+  /*  $(document).ready(function () {
+      var url = window.location;
+      $('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+      $('ul.nav a').filter(function() {
+           return this.href == url;
+      }).parent().addClass('active');
+  });*/
 </script>
